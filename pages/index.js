@@ -18,16 +18,6 @@ export default function Home() {
           <p>Product and Data-Driven Growth</p>
         </header>
 
-        <nav>
-          <ul>
-            <li>
-              <Link href="/">
-                <a>Portfolio</a>
-              </Link>
-            </li>
-          </ul>
-        </nav>
-
         <main>
           <p className="intro">
             These are some projects I’ve worked on during my free time.
