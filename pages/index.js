@@ -2,136 +2,25 @@
 import Head from 'next/head';
 import Link from 'next/link';
 
+
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Cindy Yen - Portfolio</title>
-        <meta
-          name="description"
-          content="Product and Data-Driven Growth Portfolio of Cindy Yen"
-        />
-      </Head>
-      <div className="container">
-        <header>
-          <h1>Cindy Yen</h1>
-          <p>Product and Data-Driven Growth</p>
-        </header>
-
-        <main>
-          <p className="intro">
-            These are some projects I’ve worked on during my free time.
-          </p>
-
-          <section>
-            <h2>Research</h2>
-            <ul>
-              <li>
-                <Link href="/research/nascar-commercial-breaks">
-                  <a className="project-link">NASCAR Commercial Breaks</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/research/nascar-perceptions">
-                  <a className="project-link">NASCAR Perceptions</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/research/retaining-nascar-fan-interest">
-                  <a className="project-link">Retaining NASCAR Fan Interest</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/research/nascar-tableau-graphs">
-                  <a className="project-link">NASCAR Tableau Graphs</a>
-                </Link>
-              </li>
-            </ul>
-          </section>
-
-          <section>
-            <h2>Product</h2>
-            <ul>
-              <li>
-                <Link href="/product/webpage-note-taker">
-                  <a className="project-link">Webpage Note Taker</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/product/url-parameter-splitter">
-                  <a className="project-link">URL Parameter Splitter</a>
-                </Link>
-              </li>
-            </ul>
-          </section>
-
-          <section>
-            <h2>Analytics</h2>
-            <ul>
-              <li>
-                <Link href="/analytics/nascar-chase-elliott-effect">
-                  <a className="project-link">
-                    NASCAR analysis: Chase Elliott effect on viewership
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/analytics/nascar-2023-recap-part1">
-                  <a className="project-link">
-                    NASCAR 2023 viewership season recap: Part 1
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/analytics/nascar-2023-recap-part2">
-                  <a className="project-link">
-                    NASCAR 2023 viewership season recap: Part 2
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/analytics/tableau-dashboard-nascar">
-                  <a className="project-link">
-                    Tableau dashboard showcasing NASCAR viewership trends
-                  </a>
-                </Link>
-              </li>
-            </ul>
-          </section>
-        </main>
-      </div>
-
-      {/* Global styles */}
-      <style jsx global>{`
-        body {
-          margin: 0;
-          background: #f0f2f5;
-          font-family: Arial, sans-serif;
-        }
-      `}</style>
+      <section><ul>
+        <li className="project-link">
+          <Link href="https://cindymeliyen.wordpress.com">About Cindy</Link>
+        </li>
+        <li className="project-link">
+          <Link href="/projects">Projects</Link>
+        </li>
+        <li className="project-link">
+          <Link href="https://cindymeliyen.wordpress.com">Additional</Link>
+        </li>
+      </ul>
+      </section>
 
       {/* Component-specific styles */}
       <style jsx>{`
-        .container {
-          max-width: 800px;
-          margin: 1rem auto; /* Reduced margin */
-          padding: 1.5rem; /* Reduced padding */
-          background: #fff;
-          border-radius: 8px;
-          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        header {
-          text-align: center;
-          margin-bottom: 1.5rem; /* Reduced bottom margin */
-          padding: 1rem;
-          background: linear-gradient(135deg, #0070f3, #66a6ff);
-          color: #fff;
-          border-radius: 8px;
-        }
-        header h1 {
-          margin: 0;
-          font-size: 3rem; /* Increased font size for the name */
-        }
         nav ul {
           list-style: none;
           display: flex;
