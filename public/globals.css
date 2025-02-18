@@ -20,19 +20,29 @@ header {
     margin-bottom: 1.5rem;
     /* Reduced bottom margin */
     padding: 1rem;
-    background: linear-gradient(135deg, #0070f3, #66a6ff);
+    background: #e25555;
     color: #fff;
     border-radius: 8px;
+    color: #ffffff;
+    text-decoration: none;
+
+    a:link {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    ;
+
+    a:visited {
+        text-decoration: none;
+        color: #ffffff;
+    }
 }
 
 header h1 {
     margin: 0;
     font-size: 3rem;
     /* Increased font size for the name */
-}
-
-footer {
-    text-align: center;
 }
 
 nav ul {
@@ -47,7 +57,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #0070f3;
+    color: #e25555;
     font-weight: bold;
 }
 
@@ -63,7 +73,7 @@ nav a:hover {
 }
 
 section {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     /* Reduced margin */
 }
 
@@ -90,13 +100,41 @@ li {
     border-radius: 5px;
     transition: background-color 0.3s ease, border-color 0.3s ease,
         transform 0.3s ease;
-    color: #333;
+    color: #000000;
     text-decoration: none;
-    background: #fafafa;
+
+    a:link {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    ;
+
+    a:visited {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    ;
+    background-color: #fafafa;
 }
 
 .project-link:hover {
-    background-color: #e0f7fa;
-    border-color: #0070f3;
-    transform: scale(1.02);
+    background-color: #f2e1d0;
+    border-color: #e25555;
+}
+
+footer {
+    color: #ababab;
+    font-size: 1rem;
+    text-align: center;
+    a:link {
+        color: #ababab;
+    }
+
+    ;
+
+    a:visited {
+        color: #ababab;
+    }
 }

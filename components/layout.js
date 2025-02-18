@@ -1,24 +1,24 @@
 // pages/layout.js
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Layout({ children }) {
     return (
         <>
-            <Head>
-                <title>Webpage Note Taker - Cindy Yen</title>
-                <meta
-                    name="description"
-                    content="Product: Webpage Note Taker by Cindy Yen"
-                />
-            </Head>
             <div className="container">
                 <header>
+                <Link href="/">
                     <h1>Cindy Yen</h1>
                     <p>Product | Growth | Data</p>
+                    </Link>
                 </header>
                 <main>{children}</main>
                 <footer>
-                    Made by Slanman
+                    <div className="footer">
+                        Made by Cindy Yen, Spencer Lanman, and a little help from AI
+                        <br></br><br></br>
+                        Looking for more? Check out the <Link href="https://cindymeliyen.wordpress.com"> full site</Link>.
+                    </div>
                 </footer>
             </div>
         </>

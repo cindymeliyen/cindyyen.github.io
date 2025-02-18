@@ -15,7 +15,6 @@ export default function WebpageNoteTaker() {
       {/* Project title/header */}
       <section className="project-header">
         <h2>Webpage Note Taker</h2>
-        <p className="date">Cindy Portfolio — February 11, 2025</p>
       </section>
 
       <article>
