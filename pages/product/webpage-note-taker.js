@@ -6,12 +6,10 @@ import Link from 'next/link';
 export default function WebpageNoteTaker() {
   return (
     <>
-      {/* Navigation link to go back to home */}
-      <nav className="back-nav">
-        <Link href="/projects">
-          ← Back to Projects
-        </Link>
+      <nav>
+          <Link href="/projects">← Back to Projects</Link>
       </nav>
+
       {/* Project title/header */}
       <section className="project-header">
         <h2>Webpage Note Taker</h2>
@@ -107,70 +105,8 @@ export default function WebpageNoteTaker() {
             LinkedIn. The code can be found on my GitHub.
           </p>
         </section>
+      <br></br>
       </article>
-
-      <style jsx>{`
-        .container {
-          max-width: 800px;
-          margin: 1rem auto;
-          padding: 1.5rem;
-          background: #fff;
-          border-radius: 8px;
-          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .site-header {
-          text-align: center;
-          margin-bottom: 1.5rem;
-          padding: 1rem;
-          background: linear-gradient(135deg, #0070f3, #66a6ff);
-          color: #fff;
-          border-radius: 8px;
-        }
-        .site-header h1 {
-          margin: 0;
-          font-size: 3rem;
-        }
-        nav.back-nav {
-          text-align: center;
-          margin: 1rem 0;
-        }
-        nav.back-nav a {
-          color: #0070f3;
-          font-weight: bold;
-          text-decoration: none;
-        }
-        nav.back-nav a:hover {
-          text-decoration: underline;
-        }
-        .project-header {
-          text-align: center;
-          margin-bottom: 1.5rem;
-        }
-        .project-header h2 {
-          margin: 0;
-          font-size: 2.5rem;
-          color: #0070f3;
-        }
-        .date {
-          font-size: 0.9rem;
-          color: #555;
-          margin-top: 0.5rem;
-        }
-        main article p {
-          line-height: 1.6;
-          margin-bottom: 1rem;
-          color: #333;
-        }
-        main section {
-          margin-bottom: 1.5rem;
-        }
-        main section h3 {
-          margin-bottom: 0.5rem;
-          color: #0070f3;
-          border-bottom: 1px solid #ddd;
-          padding-bottom: 0.3rem;
-        }
-      `}</style>
     </>
   );
 }

@@ -38,6 +38,7 @@ export default function Projects() {
             <Link href="https://public.tableau.com/app/profile/cindymeliyen/viz/NASCARImpressions/Overview" target="_blank">Tableau Dashboard - NASCAR Viewership Trends</Link>
           </li>
         </ul>
-      </section>     </>
+      </section>
+    </>
   );
 }
