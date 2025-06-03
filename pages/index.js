@@ -7,18 +7,22 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Cindy Yen - Product | Growth | Data</title>
+        <title>Cindy Yen - Growth & Product </title>
         <meta
           name="description"
           content="Website for Cindy Yen"
         />
       </Head>
       <section><ul>
-        <li className="project-link">
-          <Link href="https://cindymeliyen.wordpress.com">About Cindy</Link>
+        <li> 
+          <Link href="/about" className="project-link">
+          About Cindy
+          </Link>
         </li>
-        <li className="project-link">
-          <Link href="/projects">Projects</Link>
+        <li>
+          <Link href="/projects" className="project-link">
+          Projects
+          </Link>
         </li>
       </ul>
       </section>

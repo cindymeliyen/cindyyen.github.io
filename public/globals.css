@@ -75,6 +75,7 @@ section h2 {
     border-bottom: 2px solid #ddd;
     padding-bottom: 0.5rem;
     color: #333;
+    text-align: center;
 }
 
 ul {
@@ -84,6 +85,7 @@ ul {
 
 li {
     margin-bottom: 0.5rem;
+    text-align: center;
 }
 
 .project-link {
@@ -124,10 +126,10 @@ footer {
     border-top: 2px solid #ddd;
     padding-top: 1rem;
     a:link {
-        color: #ababab;
+        color: #000000;
     }
     a:visited {
-        color: #ababab;
+        color: #000000;
     }
 }
 

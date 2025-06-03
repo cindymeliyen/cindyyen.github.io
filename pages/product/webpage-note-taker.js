@@ -71,13 +71,15 @@ export default function WebpageNoteTaker() {
             features to the extension:
           </p>
           <p>
-            <strong>How to save notes without a cloud database:</strong> Since this
+            <strong>Chrome Profile Linkage:</strong> Since this
             is just a small Chrome extension for personal use, I had to come up with
-            a free way to make sure that entered text wouldn’t get lost. I didn’t
+            a non-server way to make sure that entered text wouldn’t get lost. I didn’t
             want people to have to create an account, so I made the design choice to
-            have the information saved to your Chrome profile. As I kept testing the
-            extension—which involved having to reupload the extension file to Chrome
-            every time—I realized that a user would be at risk of losing all their
+            have the information saved to your Chrome profile.</p>
+            
+            <p> <strong>Export and Import Notes:</strong> As I kept testing the
+            extension — which involved having to reupload the extension file to Chrome
+            every time — I realized that a user would be at risk of losing all their
             notes if they had to redownload the extension. So, I created an option
             where you could download all the note data you currently have into a CSV.
             Then I created an option to upload that same note data and have all your

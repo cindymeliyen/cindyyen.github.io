@@ -9,15 +9,15 @@ export default function Layout({ children }) {
                 <header>
                 <Link href="/">
                     <h1>Cindy Yen</h1>
-                    <p>Product | Growth | Data</p>
+                    <p>Growth & Product</p>
                     </Link>
                 </header>
                 <main>{children}</main>
                 <footer>
                     <div className="footer">
-                        Made by Cindy Yen, Spencer Lanman, and a little help from AI
-                        <br></br><br></br>
-                        Looking for more? Check out the <Link href="https://cindymeliyen.wordpress.com"> full site</Link>.
+                        <p style={{color:"Black"}}>Connect With Me On <Link href="https://linkedin.com/in/cindy-yen">LinkedIn</Link> | Shoot Me An <a href="mailto:cindymeliyen@gmail.com">Email</a></p>
+                        <br></br>
+                        Made by Cindy Yen, Spencer Lanman, and a little help from AI.
                     </div>
                 </footer>
             </div>
