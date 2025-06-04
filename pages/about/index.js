@@ -17,7 +17,7 @@ export default function AboutCindy() {
 
       <article>
         <p>
-          Hi, I'm Cindy. I'm currently looking to pivot into a growth product manager or product operations manager role. I recently completed my MBA at UCLA and I have 5+ years of experience in analytics.
+          Hi, I'm Cindy. I'm currently looking to pivot into a <b>growth product manager</b> or <b>product operations manager</b> role in tech. I recently completed my MBA at UCLA and I have 5+ years of experience in analytics. I am located in Los Angeles but am open to relocating to a major city.
         </p>
 
         <p>I put together this quick FAQ so you can get to know me better.</p>
@@ -25,54 +25,57 @@ export default function AboutCindy() {
         <section>
           <h3>Tell Me About Yourself</h3>
           <p>
-            I have a lot of LinkedIn connections. Some people I have worked with,
-            some I have met at a networking event, and others are random recruiters.
-            As an MBA student, I know I should utilize my network, but it is hard to
-            reach out to someone when you’ve forgotten how you met them. LinkedIn
-            doesn’t have an internal way to take notes and I don’t have time to keep
-            an Excel or written notebook full of notes about people I have connected
-            with. There had to be an easier way.
+            My professional journey started with being a business intelligence analyst for various ad tech and media companies. As I grew in this role, I realized two things - I wanted to make more of an impact and help drive business decisions that make customers happy, and the career path for a data analyst was not interesting to me. So, I enrolled in business school to help me pivot into product management.
+          </p>
+          <p>
+            Through my last few jobs and the experiences I've had in business school, I've found that I enjoy working on projects related to growth - specifically customer acquisition and retention - and optimizing operational flows to improve efficiency. Therefore, I am pursuing growth product manager roles and product oprations manager roles because of this interest, as well as because my existing skillset is complementary to these roles.
+          </p>
+          <p>
+            I find that I work best in smaller companies that allow me to grow and perform a variety of tasks. In 5 years, I hope to be in a place where I can mentor colleagues and watch them grow. My previous managers have praised me for my curiosity and high quality of work.
           </p>
         </section>
 
         <section>
           <h3>What's Your Skillset?</h3>
           <p>
-            I went into Figma and tried to brainstorm what this product would look
-            like. I knew that the product should allow me to take notes about a
-            profile and show me the date the note was written. I also wanted to be
-            able to see all the notes I have written in the page. I came up with a
-            design, which you can see here.
+            I have picked up various skills and tools in my many jobs, which sets me up to be well-rounded and ready for whatever is thrown as me. I am confident that I can learn any missing skills on the job as I am a quick learner.</p>
+            <p>
+            <li><i>Analytics:</i> SQL, Tableau, Surveys (Qualtrics), Excel, Google Analytics, A/B Testing, Python</li>
+            <li><i>Growth Marketing:</i> Google Ads, Email Marketing (MailChimp, SendGrid), HTML</li>
+            <li><i>Product and Project Management:</i> APIs, Segment, Jira, Github, Figma, Agile</li>
           </p>
         </section>
 
         <section>
-          <h3>Tell Me Your Greatest Accomplishment</h3>
+          <h3>Tell Me What You're Proud Of</h3>
           <p>
-            I looked to see if there was a way I could make a profile notetaker
-            specifically for LinkedIn. However, it seems to be against LinkedIn’s
-            terms of service to create an extension that manipulates the UI of the
-            website. So, I had to find another solution. I decided that I could
-            make a Chrome extension that lets you take notes on any webpage, with the
-            intention that it would be primarily used for LinkedIn.
-          </p>
-          <p>
-            I used Google Gemini to generate the code for the extension and some
-            knowledge of HTML to make some tweaks to the UI.
+            I think I can be proud of a few things - when I made an impact, when I hit a goal, and when I accomplished something I didn't think I could do. Here's an example of each one of them:</p>
+            <p>
+            <li>In my first job, I was straight out of college and the only analyst on the team. Our existing product team had chosen a business intelligence tool for the media buying and client services teams to use, but it was not meeting their needs. So, <b>I took it upon myself to find a new business intelligence tool</b> that the analysts could use to build better reports for the media buying and client serices teams. I evaluated half a dozen business intelligence tools, demoing each one and making sure the tools were able to build the reports that my stakeholders needed. I ended up choosing Tableau and implementing it for everyone in the company. </li>
+            <li>At another job, my manager was out for the day but his boss really wanted to send out an email to our customers. My manager had briefly showed me how to do so earlier in the week, but it was more of a "take a look at what I'm doing" kind of thing. Still, I knew how important it was to send that email out to our customers that day, so I had to figure out how to use MailChimp to send it out. I was able to figure out how to set it up, and because I did a great job, <b>I got put in charge of email marketing</b> and thus was now the lead to hit the company's quarterly email acquisition KPI. The goal for that quarter was 10,000 new customers, and I had to get 7,000 more. I spent the rest of the quarter A/B testing various email copy and learning how to code in HTML to explore new formats. At the end of the quarter, <b>we ended up exceeding our goal with 11,000 total new customers</b>.</li>
+            <li>In business school, I was really struggling with my accounting class. I just did not understand the balance sheet and when things could be moved over from one side to the other. However, I knew that if I wanted to do well in the class, I had to understand the material. So, I doubled down on studying and went to office hours. I ended up getting 100% on my midterm.</li>
           </p>
         </section>
 
         <section>
-          <h3>What do you do in your free time?</h3>
+          <h3>What are some things you're interested in?</h3>
           <p>
-            Video games ,etc.
+            I spend a lot of time on social media because I like learning about what people think about different problems, whether it's complaining about the boringness of a sporting event or their thoughts on a new proposed government policy. I enjoy reading these comments and then thinking of solutions that would solve their problems.
+          </p>
+          <p>
+            Another thing I enjoy is NASCAR. I enjoy the strategy of the races and the storytelling that unfolds throughout the races. Over the last few years I've performed viewership analysis on <Link href="https://twitter.com/cindymeliyen" target="_blank">Twitter</Link> for almost 2,000 NASCAR fans and industry members.
+          </p>
+          <p>
+            Outside of this I enjoy playing Nintendo games. I'm a big Animal Crossing fan, since 2006.
           </p>
         </section>
 
         <section>
           <h3>I'm interested. How do I contact you?</h3>
           <p>
-            LinkedIn, Email, Twitter
+            <li><b>LinkedIn</b>: <Link href="https://linkedin.com/in/cindy-yen" target="_blank">linkedin.com/in/cindy-yen</Link> (Send a message with your invite so I don't decline it.)</li>
+            <li><b>Email</b>: <a href="mailto:cindymeliyen@gmail.com" target="_blank">cindymeliyen@gmail.com</a></li>
+            <li><b>Twitter</b>: <Link href="https://twitter.com/cindymeliyen" target="_blank">@cindymeliyen</Link></li>
             My resume is frequently updated. Please contact me for the most updated version.
           </p>
         </section>
