@@ -43,14 +43,22 @@ export default function WebpageNoteTaker() {
         </section>
 
         <section>
-          <h3>Prototyping</h3>
+          <h3>Creating a Mockup</h3>
           <p>
             I went into Figma and tried to brainstorm what this product would look
             like. I knew that the product should allow me to take notes about a
             profile and show me the date the note was written. I also wanted to be
             able to see all the notes I have written in the page. I came up with a
-            design, which you can see here.
+            mockup on what I imagined it to look like.
           </p>
+
+          <div style={{ maxWidth: '800px', margin: '20px auto', padding: '10px' }}>
+            <img
+              src="/files/note_taker_figma.png"
+              alt="Mockup of URL Parameter Splitter extension"
+              style={{ maxWidth: '100%', height: 'auto', display: 'block', margin: '10 auto', border: '2px solid #ccc' }}
+            />
+          </div>
         </section>
 
         <section>

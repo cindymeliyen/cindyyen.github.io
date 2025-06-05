@@ -26,7 +26,7 @@ export default function UrlParamSplitter() {
         <section>
         <h3>Data Analysis</h3>
           <p>
-            <li><b><Link href="https://x.com/cindymeliyen/status/1729547465378914597" target="_blank">Analysis of Chase Elliott Effect</Link></b> - Chase Elliott is NASCAR&#39;s most popular driver. How much was viewership affected when he was out with an injury for a few weeks? </li>
+            <li><b><Link href="https://x.com/cindymeliyen/status/1729547465378914597" target="_blank">Analysis of Chase Elliott Effect</Link></b> - Chase Elliott is NASCAR&#39;s most popular driver. How was viewership affected when he was out with an injury for a few weeks? </li>
             <li><b><Link href="https://x.com/cindymeliyen/status/1927885077238706299" target="_blank">NASCAR on Prime First Race Analysis</Link></b> - NASCAR had their first race exclusively on streaming for one of their biggest races of the year, the World 600. This analysis explores how it performed. </li>
             <li><b><Link href="https://public.tableau.com/app/profile/cindymeliyen/" target="_blank">NASCAR Viewership Tableau Dashboards</Link></b> - I use Tableau dashboards regularly in my day job but this is a link to some dashboards that I&#39;ve made as examples. One shows off Tableau features and the other is a more practical dashboard that shows the graphs I regularly screenshot for my Twitter analysis. </li>
           </p>
