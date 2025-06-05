@@ -1,13 +1,14 @@
 {
-  "name": "cmy-comß",
+  "name": "cindymeliyen-com",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "homepage": "https://cindymeliyen.github.io/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "node sammy.js; serve -s _static -l tcp://0.0.0.0:${PORT:-8080} -n",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "rm -rf out && next build && echo > out/.nojekyll && npx gh-pages -d out -b gh-pages"
+  
   },
   "keywords": [],
   "author": "",
@@ -18,5 +19,8 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "serve": "^14.2.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }

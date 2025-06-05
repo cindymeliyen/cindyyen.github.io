@@ -39,7 +39,7 @@ export default function UrlParamSplitter() {
         <section>
           <h3>The Result</h3>
           <p>
-            I was able to make a private Chrome Extension that when pressed, will show you the URL of the website you're on and the URL parameters broken out. The code can be found on my <Link href = "https://github.com/cindymeliyen/url-params" target="_blank"> GitHub</Link>.
+            I was able to make a private Chrome Extension that when pressed, will show you the URL of the website you&#39;re on and the URL parameters broken out. The code can be found on my <Link href = "https://github.com/cindymeliyen/url-params" target="_blank"> GitHub</Link>.
           </p>
         </section>
         <br></br>

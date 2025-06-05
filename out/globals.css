@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    background: #f0f2f5;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 1rem auto;
+    /* Reduced margin */
+    padding: 1.5rem;
+    /* Reduced padding */
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    /* Reduced bottom margin */
+    padding: 1rem;
+    background: #e25555;
+    color: #fff;
+    border-radius: 8px;
+    color: #ffffff;
+    text-decoration: none;
+
+    a:link {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    ;
+
+    a:visited {
+        text-decoration: none;
+        color: #ffffff;
+    }
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    /* Increased font size for the name */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+    margin-bottom: 1.5rem;
+    /* Reduced bottom margin */
+}
+
+nav a {
+    text-decoration: none;
+    color: #ababab;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.intro {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    /* Reduced margin */
+}
+
+section h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+    color: #333;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 0.5rem;
+    margin-left: 2rem;
+    text-indent: -1.5em;
+}
+
+.project-link {
+    display: block;
+    padding: 0.75rem 1rem;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, border-color 0.3s ease,
+        transform 0.3s ease;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+
+    a:link {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    ;
+
+    a:visited {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    ;
+    background-color: #fafafa;
+}
+
+.project-link:hover {
+    background-color: #f2e1d0;
+    border-color: #e25555;
+}
+
+footer {
+    color: #ababab;
+    font-size: 1rem;
+    text-align: center;
+    border-top: 2px solid #ddd;
+    padding-top: 1rem;
+    a:link {
+        color: #000000;
+    }
+    a:visited {
+        color: #000000;
+    }
+}
+
+nav {
+    text-align: center;
+    color: #ffffff;
+}
+
+article section p {
+    margin-block-start: .5rem;
+    margin-block-end: .5rem;
+}
+
+h3 {
+    margin: 25px 0 0 0;
+}
+
+p a:link {
+    color: #e25555;
+}
+
+p a:visited {
+    color: #e25555;
+}
