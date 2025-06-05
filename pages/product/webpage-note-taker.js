@@ -7,7 +7,7 @@ export default function WebpageNoteTaker() {
   return (
     <>
       <nav>
-          <Link href="/projects">← Back to Projects</Link>
+        <Link href="/projects">← Back to Projects</Link>
       </nav>
 
       {/* Project title/header */}
@@ -22,7 +22,13 @@ export default function WebpageNoteTaker() {
           designed to be used on LinkedIn, where you can take notes about a
           connection and be able to easily refer back to your notes in the future.
         </p>
-
+        <div style={{ maxWidth: '800px', margin: '20px auto', padding: '10px' }}>
+          <img
+            src="/files/note_taker_image.png"
+            alt="Screenshot of URL Parameter Splitter extension"
+            style={{ maxWidth: '100%', height: 'auto', display: 'block', margin: '10 auto', border: '2px solid #ccc' }}
+          />
+        </div>
         <section>
           <h3>The Problem</h3>
           <p>
@@ -76,8 +82,8 @@ export default function WebpageNoteTaker() {
             a non-server way to make sure that entered text wouldn’t get lost. I didn’t
             want people to have to create an account, so I made the design choice to
             have the information saved to your Chrome profile.</p>
-            
-            <p> <strong>Export and Import Notes:</strong> As I kept testing the
+
+          <p> <strong>Export and Import Notes:</strong> As I kept testing the
             extension — which involved having to reupload the extension file to Chrome
             every time — I realized that a user would be at risk of losing all their
             notes if they had to redownload the extension. So, I created an option
@@ -104,10 +110,10 @@ export default function WebpageNoteTaker() {
           <p>
             I was able to make a private Chrome Extension that allows you to take
             notes about a webpage you’re on. The end result can be seen on my
-            LinkedIn. The code can be found on my <Link href = "https://github.com/cindymeliyen/web_notes" target="_blank"> GitHub</Link>.
+            LinkedIn. The code can be found on my <Link href="https://github.com/cindymeliyen/web_notes" target="_blank"> GitHub</Link>.
           </p>
         </section>
-      <br></br>
+        <br></br>
       </article>
     </>
   );

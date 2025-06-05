@@ -1,5 +1,7 @@
 ## How to run
 
+
 ```
-npm run deploy
+npm run dev -> run locally
+npm run deploy -> publish
 ```

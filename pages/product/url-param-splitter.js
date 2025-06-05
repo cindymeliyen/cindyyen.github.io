@@ -19,7 +19,13 @@ export default function UrlParamSplitter() {
         <p>
           I created a URL Parameter Splitter Chrome extension using Google Gemini and some personal knowledge of HTML. The URL Parameter Splitter is designed to split URL parameters (the stuff after the ? in the URL) and put it in a easy-to-read manner.
         </p>
-
+        <div style={{ maxWidth: '800px', margin: '20px auto', padding: '10px' }}>
+          <img
+            src="/files/url_param_image.png"
+            alt="Screenshot of URL Parameter Splitter extension"
+            style={{ maxWidth: '100%', height: 'auto', display: 'block', margin: '10 auto', border: '2px solid #ccc' }}
+          />
+        </div>
         <section>
           <h3>The Problem</h3>
           <p>
@@ -39,7 +45,7 @@ export default function UrlParamSplitter() {
         <section>
           <h3>The Result</h3>
           <p>
-            I was able to make a private Chrome Extension that when pressed, will show you the URL of the website you&#39;re on and the URL parameters broken out. The code can be found on my <Link href = "https://github.com/cindymeliyen/url-params" target="_blank"> GitHub</Link>.
+            I was able to make a private Chrome Extension that when pressed, will show you the URL of the website you&#39;re on and the URL parameters broken out. The code can be found on my <Link href="https://github.com/cindymeliyen/url-params" target="_blank"> GitHub</Link>.
           </p>
         </section>
         <br></br>

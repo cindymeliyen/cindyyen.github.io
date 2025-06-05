@@ -36,7 +36,7 @@ export default function UrlParamSplitter() {
         <h3>Research Reports</h3>
           <p>
             <li><b><Link href="https://nascarthesis.wordpress.com/" target="_blank">NASCAR Perceptions</Link></b> - This was my senior thesis for undergrad, in which I explored perceptions of NASCAR and how they affect fandom. </li>
-            <li><b><Link href="https://x.com/cindymeliyen/status/1504232466516643843" target="_blank">What Do NASCAR Fans Do During Commercial Breaks?</Link></b> - I asked NASCAR fans what they do during commercial breaks because I had a hypothesis that average viewership is lower than it could be because people change the channel during ad breaks, and that ads would be more effective side-by-side with live racing action because people don&#39;t pay attention during full-screen ads. Funny enough broadcasters are now pushing more for side-by-side ad breaks during green flag racing. </li>
+            <li><b><a href="/files/NASCAR_commercial_breaks.pdf" target="_blank" rel="noopener noreferrer">What Do NASCAR Fans Do During Commercial Breaks?</a></b> - I asked NASCAR fans what they do during commercial breaks because I had a hypothesis that average viewership is lower than it could be because people change the channel during ad breaks, and that ads would be more effective side-by-side with live racing action because people don&#39;t pay attention during full-screen ads. Funny enough broadcasters are now pushing more for side-by-side ad breaks during green flag racing. </li>
           </p>
         </section>
         <br></br>
