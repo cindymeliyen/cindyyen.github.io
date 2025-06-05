@@ -148,3 +148,11 @@ article section p {
 h3 {
     margin: 25px 0 0 0;
 }
+
+p a:link {
+    color: #e25555;
+}
+
+p a:visited {
+    color: #e25555;
+}

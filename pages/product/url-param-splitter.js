@@ -25,28 +25,21 @@ export default function UrlParamSplitter() {
           <p>
             While I was working on email marketing campaigns, my manager taught me about URL parameters and how we used to them to track which email brought a customer to our website. He had an app where you could paste a URL into a text editor, press a few buttons, and then all the URL parameters would be split out. Unfortunately the name of that app and the code were lost when we both lost our jobs.</p>
           <p>
-            URL parameters can tell you a lot about advertising, and I was also working at a place that utilized URL parameters to track which ad brought a customer to our website. I was looking for a way to easily see the URL parameters broken out without going to another tab and using an external website or having to paste the URL into a text editor. Thus, the URL Parameter Splitter was born.
-          </p>
-        </section>
-
-        <section>
-          <h3>Prototyping</h3>
-          <p>
-            TBD. I went and looked for examples but I knew I just wanted to make a table-like format.
+            URL parameters can tell you a lot about advertising, and I was also working at a place that utilized URL parameters to track which ad brought a customer to our website. I was looking for a way to easily see the URL parameters broken out without going to another tab and using an external website or having to paste the URL into a text editor. I looked at existing parameter splitters but they either required an external site or did not execute the task in a format that I wanted. Thus, the URL Parameter Splitter was born.
           </p>
         </section>
 
         <section>
           <h3>Development</h3>
           <p>
-            I saw that a lot of people were making new apps and extensions by only utilizing AI, so I decided to also use AI. (Besides, I didn't know where to even start when it came to making my own extension.) I used Google Gemini and after much trial and error, I was able to get the right Javascript code to be able to get the extension to work. I also used some personal knowledge of HTML to make some tweaks to the formatting.
+            In my mind I had an idea of what I wanted - I wanted it to read the URL of the page I was on and then show the parameters split out in a table-like format. I asked Google Gemini on how to create a Google Extension and to give me some starting code to create my vision. Then, after much trial and error, I was able to get the right Javascript code to be able to get the extension to work in the way I wanted it to. I also used some personal knowledge of HTML to make some tweaks to the formatting.
           </p>
         </section>
 
         <section>
           <h3>The Result</h3>
           <p>
-            I was able to make a private Chrome Extension that when pressed, will show you the URL of the website you're on and the URL parameters broken out. The code can be found on my GitHub.
+            I was able to make a private Chrome Extension that when pressed, will show you the URL of the website you're on and the URL parameters broken out. The code can be found on my <Link href = "https://github.com/cindymeliyen/url-params" target="_blank"> GitHub</Link>.
           </p>
         </section>
         <br></br>

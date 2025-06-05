@@ -25,7 +25,7 @@ export default function AboutCindy() {
         <section>
           <h3>Tell Me About Yourself</h3>
           <p>
-            My professional journey started with being a business intelligence analyst for various ad tech and media companies. As I grew in this role, I realized two things - I wanted to make more of an impact and help drive business decisions that make customers happy, and the career path for a data analyst was not interesting to me. So, I enrolled in business school to help me pivot into product management.
+            My professional journey started with being a business intelligence analyst for various ad tech and media companies. As I grew in this role, I realized two things - I wanted to make more of an impact and help drive business decisions to make customers happy, and the career path for a data analyst was not interesting to me. So, I enrolled in business school to help me pivot into product management.
           </p>
           <p>
             Through my last few jobs and the experiences I've had in business school, I've found that I enjoy working on projects related to growth - specifically customer acquisition and retention - and optimizing operational flows to improve efficiency. Therefore, I am pursuing growth product manager roles and product oprations manager roles because of this interest, as well as because my existing skillset is complementary to these roles.
@@ -47,9 +47,9 @@ export default function AboutCindy() {
         </section>
 
         <section>
-          <h3>Tell Me What You're Proud Of</h3>
+          <h3>Tell Me Your Biggest Accomplishment</h3>
           <p>
-            I think I can be proud of a few things - when I made an impact, when I hit a goal, and when I accomplished something I didn't think I could do. Here's an example of each one of them:</p>
+            I think accomplishments come in all forms - when I made an impact, when I hit a goal, and when I accomplished something I didn't think I could do. Here's an example of each one of them:</p>
             <p>
             <li>In my first job, I was straight out of college and the only analyst on the team. Our existing product team had chosen a business intelligence tool for the media buying and client services teams to use, but it was not meeting their needs. So, <b>I took it upon myself to find a new business intelligence tool</b> that the analysts could use to build better reports for the media buying and client serices teams. I evaluated half a dozen business intelligence tools, demoing each one and making sure the tools were able to build the reports that my stakeholders needed. I ended up choosing Tableau and implementing it for everyone in the company. </li>
             <li>At another job, my manager was out for the day but his boss really wanted to send out an email to our customers. My manager had briefly showed me how to do so earlier in the week, but it was more of a "take a look at what I'm doing" kind of thing. Still, I knew how important it was to send that email out to our customers that day, so I had to figure out how to use MailChimp to send it out. I was able to figure out how to set it up, and because I did a great job, <b>I got put in charge of email marketing</b> and thus was now the lead to hit the company's quarterly email acquisition KPI. The goal for that quarter was 10,000 new customers, and I had to get 7,000 more. I spent the rest of the quarter A/B testing various email copy and learning how to code in HTML to explore new formats. At the end of the quarter, <b>we ended up exceeding our goal with 11,000 total new customers</b>.</li>
@@ -66,7 +66,7 @@ export default function AboutCindy() {
             Another thing I enjoy is NASCAR. I enjoy the strategy of the races and the storytelling that unfolds throughout the races. Over the last few years I've performed viewership analysis on <Link href="https://twitter.com/cindymeliyen" target="_blank">Twitter</Link> for almost 2,000 NASCAR fans and industry members.
           </p>
           <p>
-            Outside of this I enjoy playing Nintendo games. I'm a big Animal Crossing fan, since 2006.
+            Outside of this I enjoy playing Nintendo games. I'm a big Animal Crossing fan, since 2006, and I hold the strong belief that Animal Crossing: New Leaf for the 3DS is better than Animal Crossing: New Horizons for the Nintendo Switch.
           </p>
         </section>
 
@@ -76,7 +76,7 @@ export default function AboutCindy() {
             <li><b>LinkedIn</b>: <Link href="https://linkedin.com/in/cindy-yen" target="_blank">linkedin.com/in/cindy-yen</Link> (Send a message with your invite so I don't decline it.)</li>
             <li><b>Email</b>: <a href="mailto:cindymeliyen@gmail.com" target="_blank">cindymeliyen@gmail.com</a></li>
             <li><b>Twitter</b>: <Link href="https://twitter.com/cindymeliyen" target="_blank">@cindymeliyen</Link></li>
-            My resume is frequently updated. Please contact me for the most updated version.
+            My resume is updated frequently. Please contact me for the most updated version.
           </p>
         </section>
       <br></br>

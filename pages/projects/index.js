@@ -17,28 +17,16 @@ export default function Projects() {
         />
       </Head>
       <section>
-        <h2>Product</h2>
+        <h2>Projects</h2>
         <ul>
           <li className="project-link">
             <Link href="/product/webpage-note-taker">Webpage Note Taker</Link>
           </li>
           <li className="project-link">
             <Link href="/product/url-param-splitter">URL Parameter Splitter</Link>
-          </li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Analytics</h2>
-        <ul>
-          <li className="project-link">
-            <Link href="https://x.com/cindymeliyen/status/1729547465378914597" target="_blank">NASCAR Viewership Analysis - Chase Elliott Effect</Link>
-          </li>
-          <li className="project-link">
-            <Link href="https://x.com/cindymeliyen/status/1857145050670547212" target="_blank">2024 NASCAR Viewership Recap</Link>
-          </li>
-          <li className="project-link">
-            <Link href="https://public.tableau.com/app/profile/cindymeliyen/viz/NASCARImpressions/Overview" target="_blank">Tableau Dashboard - NASCAR Viewership Trends</Link>
+          </li><
+            li className="project-link">
+            <Link href="/analytics/nascar-analysis">NASCAR Analysis</Link>
           </li>
         </ul>
       </section>

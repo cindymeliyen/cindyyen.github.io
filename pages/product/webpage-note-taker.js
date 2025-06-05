@@ -104,7 +104,7 @@ export default function WebpageNoteTaker() {
           <p>
             I was able to make a private Chrome Extension that allows you to take
             notes about a webpage you’re on. The end result can be seen on my
-            LinkedIn. The code can be found on my GitHub.
+            LinkedIn. The code can be found on my <Link href = "https://github.com/cindymeliyen/web_notes" target="_blank"> GitHub</Link>.
           </p>
         </section>
       <br></br>
