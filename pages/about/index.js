@@ -17,7 +17,7 @@ export default function AboutCindy() {
 
       <article>
         <p>
-          Hi, I&#39;m Cindy. I&#39;m currently looking to pivot into a <b>growth product manager</b> or <b>product operations manager</b> role in tech. I recently completed my MBA at UCLA and I have 5+ years of experience in analytics. I am located in Los Angeles but am open to relocating to a major city.
+          Hi, I&#39;m Cindy. I&#39;m currently looking to pivot into a <b>growth product manager</b> or <b>product operations manager</b> role in tech. I recently completed my MBA at UCLA and I have 5+ years of experience in analytics. I am located in Los Angeles but am open to relocating to another major city.
         </p>
 
         <p>I put together this quick FAQ so you can get to know me better.</p>
@@ -25,10 +25,10 @@ export default function AboutCindy() {
         <section>
           <h3>Tell Me About Yourself</h3>
           <p>
-            My professional journey started with being a business intelligence analyst for various ad tech and media companies. As I grew in this role, I realized two things - I wanted to make more of an impact and help drive business decisions to make customers happy, and the career path for a data analyst was not interesting to me. So, I enrolled in business school to help me pivot into product management.
+            My professional journey started with being a business intelligence analyst for various ad tech and media companies. As I grew in this role, I realized two things - I wanted to make more of an impact and help drive business decisions to make customers happy, and the career path for a data analyst was not interesting to me. So, I enrolled in business school to help me pivot to a product role.
           </p>
           <p>
-            Through my last few jobs and the experiences I&#39;ve had in business school, I&#39;ve found that I enjoy working on projects related to growth - specifically customer acquisition and retention - and optimizing operational flows to improve efficiency. Therefore, I am pursuing growth product manager roles and product oprations manager roles because of this interest, as well as because my existing skillset is complementary to these roles.
+            Through my last few jobs and the experiences I&#39;ve had in business school, I&#39;ve found that I enjoy working on projects related to growth - specifically customer acquisition and retention - and optimizing operational flows to improve efficiency. Therefore, I am pursuing growth product manager and product operations manager roles. I feel that these roles play to my strengths and that I would be best at them, but I am also open to general product manager and product marketing manager roles.
           </p>
           <p>
             I find that I work best in smaller companies that allow me to grow and perform a variety of tasks. In 5 years, I hope to be in a place where I can mentor colleagues and watch them grow. My previous managers have praised me for my curiosity and high quality of work.
