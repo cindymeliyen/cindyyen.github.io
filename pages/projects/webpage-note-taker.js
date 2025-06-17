@@ -1,4 +1,4 @@
-// pages/product/webpage-note-taker.js
+// pages/projects/webpage-note-taker.js
 import Head from 'next/head';
 import Link from 'next/link';
 
@@ -10,7 +10,13 @@ export default function WebpageNoteTaker() {
         <Link href="/projects">← Back to Projects</Link>
       </nav>
 
-      {/* Project title/header */}
+      <Head>
+        <title>Cindy Yen - Webpage Note Taker</title>
+        <meta
+          name="description"
+          content="Cindy Yen's Webpage Note Taker"
+        />
+      </Head>
       <section className="project-header">
         <h2>Webpage Note Taker</h2>
       </section>

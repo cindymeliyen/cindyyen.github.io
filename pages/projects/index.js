@@ -5,10 +5,10 @@ import Link from 'next/link';
 
 export default function Projects() {
   return (
-    <>      
-    <nav>
-    <Link href="/">← Back to Home</Link>
-    </nav>
+    <>
+      <nav>
+        <Link href="/">← Back to Home</Link>
+      </nav>
       <Head>
         <title>Cindy Yen - Projects</title>
         <meta
@@ -20,13 +20,13 @@ export default function Projects() {
         <h2>Projects</h2>
         <ul>
           <li className="project-link">
-            <Link href="/product/webpage-note-taker">Webpage Note Taker</Link>
+            <Link href="/projects/webpage-note-taker">Webpage Note Taker</Link>
           </li>
           <li className="project-link">
-            <Link href="/product/url-param-splitter">URL Parameter Splitter</Link>
+            <Link href="/projects/url-param-splitter">URL Parameter Splitter</Link>
           </li><
             li className="project-link">
-            <Link href="/analytics/nascar-analysis">NASCAR Analysis</Link>
+            <Link href="/projects/nascar-analysis">NASCAR Analysis</Link>
           </li>
         </ul>
       </section>

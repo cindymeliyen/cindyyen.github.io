@@ -1,4 +1,4 @@
-// pages/product/url-param-splitter.js
+// pages/projects/url-param-splitter.js
 import Head from 'next/head';
 import Link from 'next/link';
 
@@ -10,7 +10,13 @@ export default function UrlParamSplitter() {
         <Link href="/projects">← Back to Projects</Link>
       </nav>
 
-      {/* Project title/header */}
+      <Head>
+        <title>Cindy Yen - URL Parameter Splitter</title>
+        <meta
+          name="description"
+          content="Cindy Yen's URL Parameter Splitter"
+        />
+      </Head>
       <section className="project-header">
         <h2>URL Parameter Splitter</h2>
       </section>

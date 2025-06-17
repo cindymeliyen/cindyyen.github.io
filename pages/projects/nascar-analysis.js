@@ -1,4 +1,4 @@
-// pages/analytics/nascar-analysis.js
+// pages/projects/nascar-analysis.js
 import Head from 'next/head';
 import Link from 'next/link';
 
@@ -10,7 +10,13 @@ export default function UrlParamSplitter() {
         <Link href="/projects">← Back to Projects</Link>
       </nav>
 
-      {/* Project title/header */}
+      <Head>
+        <title>Cindy Yen - NASCAR Analysis</title>
+        <meta
+          name="description"
+          content="Cindy Yen's NASCAR Analysis"
+        />
+      </Head>
       <section className="project-header">
         <h2>NASCAR Analysis</h2>
       </section>
