@@ -15,7 +15,7 @@ export default function AboutCindy() {
           name="description"
           content="About Cindy Yen"
         />
-      </Head>:
+      </Head>
       <section className="project-header">
         <h2>About Cindy</h2>
       </section>
