@@ -10,18 +10,18 @@ export default function Home() {
         <title>Cindy Yen - Growth & Product </title>
         <meta
           name="description"
-          content="Website for Cindy Yen"
+          content="Cindy Yen is a Growth & Product professional who enjoys data-driven growth and innovation. Learn more about Cindy and connect with her today."
         />
       </Head>
       <section><ul>
-        <li> 
+        <li>
           <Link href="/about" className="project-link">
-          About Cindy
+            About Cindy
           </Link>
         </li>
         <li>
           <Link href="/projects" className="project-link">
-          Projects
+            Projects
           </Link>
         </li>
       </ul>
