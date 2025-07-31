@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://cindyyen.com
+
+# Sitemaps
+Sitemap: https://cindyyen.com/sitemap.xml
