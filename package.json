@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "node sammy.js; serve -s _static -l tcp://0.0.0.0:${PORT:-8080} -n",
     "lint": "next lint",
-    "deploy": "rm -rf out && next build && echo > out/.nojekyll && npx gh-pages -d out -b gh-pages"
-  
+    "deploy": "rm -rf out && next build && echo > out/.nojekyll && npx gh-pages -d out -b gh-pages",
+    "postbuild": "next-sitemap"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
   "dependencies": {
     "eslint-config-next": "^15.1.7",
     "next": "^15.1.7",
+    "next-sitemap": "^4.2.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "serve": "^14.2.1"
