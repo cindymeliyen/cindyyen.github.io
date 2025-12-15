@@ -8,14 +8,14 @@ export default function Layout({ children }) {
             <Head>
                 <meta
                     name="description"
-                    content="Cindy Yen is a Growth & Product professional who enjoys data-driven growth and innovation. Learn more about Cindy and connect with her today."
+                    content="Cindy Yen is a Growth professional who enjoys data-driven marketing and product innovation. Learn more about Cindy and connect with her today."
                 />
             </Head>
             <div className="container">
                 <header>
                     <Link href="/">
                         <h1>Cindy Yen</h1>
-                        <p>Growth & Product</p>
+                        <p>Growth • Product • Marketing • Analytics</p>
                     </Link>
                 </header>
                 <main>{children}</main>

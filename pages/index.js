@@ -7,10 +7,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Cindy Yen - Growth & Product </title>
+        <title>Cindy Yen - Growth, Product, Marketing & Analytics </title>
         <meta
           name="description"
-          content="Cindy Yen is a Growth & Product professional who enjoys data-driven growth and innovation. Learn more about Cindy and connect with her today."
+          content="Cindy Yen is a Growth professional who enjoys data-driven marketing and product innovation. Learn more about Cindy and connect with her today."
         />
       </Head>
       <section><ul>
