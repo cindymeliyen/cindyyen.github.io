@@ -22,7 +22,7 @@ export default function AboutCindy() {
 
       <article>
         <p>
-          Hi, I&#39;m Cindy. I&#39;m currently looking to pivot into a <b>growth product manager</b> role. I recently completed my MBA at UCLA and I have 6 years of experience in growth and analytics. I am located in Los Angeles but am open to relocating to another major city.
+          Hi, I&#39;m Cindy. I&#39;m a <b>growth product manager</b> role with previous experience in growth and analytics. I am located in Los Angeles but am open to relocating to another major city.
         </p>
 
         <p>I put together this quick FAQ so you can get to know me better.</p>
@@ -45,9 +45,9 @@ export default function AboutCindy() {
           <p>
             I have picked up various skills and tools in my many jobs, which sets me up to be well-rounded and ready for whatever is thrown as me. I am a quick learner and am confident I can fill any missing gaps on-the-job.</p>
           <p>
-            <li><i>Analytics:</i> SQL, Tableau, Surveys (Qualtrics), Excel, Google Analytics, A/B Testing, Python</li>
-            <li><i>Growth Marketing:</i> Google Ads, Meta Ads, Email Marketing, HTML</li>
-            <li><i>Product and Project Management:</i> APIs, Segment, Jira, Github, Figma, Agile</li>
+            <li><i>Product and Project Management:</i> Claude Code, Jira, Github, Figma, Lovable</li>
+            <li><i>Analytics:</i> SQL, Tableau, Surveys, Excel, Google Analytics, A/B Testing, Python</li>
+            <li><i>Growth Marketing:</i> Google Ads, Meta Ads, Email Marketing, HTML, GA4</li>
           </p>
         </section>
 
@@ -57,13 +57,13 @@ export default function AboutCindy() {
             I spend a lot of time on social media because I like learning about what people think about different problems, whether it&#39;s complaining about the boringness of a sporting event or their thoughts on a new proposed government policy. I enjoy reading these comments and then thinking of solutions that would solve their problems.
           </p>
           <p>
-            Another thing I enjoy is NASCAR. I enjoy the strategy of the races and the storytelling that unfolds throughout the races. Over the last few years I&#39;ve performed viewership analysis on <Link href="https://twitter.com/cindymeliyen" target="_blank">Twitter</Link> for almost 2,000 NASCAR fans and industry members.
+            Another thing I enjoy is NASCAR. I enjoy the strategy of the races and the storytelling that unfolds throughout the races. I&#39;ve previously performed viewership analysis on <Link href="https://twitter.com/cindymeliyen" target="_blank">Twitter</Link> for almost 2,000 NASCAR fans and industry members.
           </p>
           <p>
             Outside of this I enjoy playing Nintendo games. I&#39;m a big Animal Crossing fan, since 2006, and I hold the strong belief that Animal Crossing: New Leaf for the 3DS is better than Animal Crossing: New Horizons for the Nintendo Switch.
           </p>
           <p>
-            I recently picked up tennis and participate in weekly liveball with other beginners.
+            I also play tennis for fun.
           </p>
         </section>
 

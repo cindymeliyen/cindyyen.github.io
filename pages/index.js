@@ -10,10 +10,10 @@ export default function Home() {
         <title>Cindy Yen - Growth, Product, Marketing & Analytics </title>
         <meta
           name="description"
-          content="Cindy Yen is a Growth professional who enjoys data-driven marketing and product innovation. Learn more about Cindy and connect with her today."
+          content="Cindy Yen is a growth professional who enjoys data-driven marketing and product innovation. Learn more about Cindy and connect with her today."
         />
       </Head>
-      <section><ul>
+      <navigation><ul>
         <li>
           <Link href="/about" className="project-link">
             About Cindy
@@ -25,7 +25,7 @@ export default function Home() {
           </Link>
         </li>
       </ul>
-      </section>
+      </navigation>
     </>
   );
 }

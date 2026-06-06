@@ -8,7 +8,7 @@ export default function Layout({ children }) {
             <Head>
                 <meta
                     name="description"
-                    content="Cindy Yen is a Growth professional who enjoys data-driven marketing and product innovation. Learn more about Cindy and connect with her today."
+                    content="Cindy Yen is a product professional specializing in data-driven growth. Learn more about Cindy and connect with her today."
                 />
             </Head>
             <div className="container">
@@ -21,9 +21,10 @@ export default function Layout({ children }) {
                 <main>{children}</main>
                 <footer>
                     <div className="footer">
-                        <p style={{ color: "Black" }}>Connect With Me On <Link href="https://linkedin.com/in/cindy-yen" target="_blank">LinkedIn</Link> | Shoot Me An <a href="mailto:cindymeliyen@gmail.com" target="_blank">Email</a></p>
+                        <p style={{ color: "Black" }}> Check Out More: <br></br>
+                            <Link href="https://linkedin.com/in/cindy-yen" target="_blank">LinkedIn</Link> • <Link href="https://github.com/cindymeliyen" target="_blank">Github</Link> • <a href="mailto:cindymeliyen@gmail.com" target="_blank">Email</a></p>
                         <br></br>
-                        Made by Cindy Yen, Spencer Lanman, and a little help from AI.
+                        Cindy Yen © 2026
                     </div>
                 </footer>
             </div>

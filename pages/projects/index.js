@@ -16,9 +16,12 @@ export default function Projects() {
           content="List of Cindy Yen's Projects"
         />
       </Head>
-      <section>
+      <navigation>
         <h2>Projects</h2>
         <ul>
+           <li className="project-link">
+            <Link href="/projects/youre-bald-game">You're Bald - Lovable Game</Link>
+          </li>
           <li className="project-link">
             <Link href="/projects/webpage-note-taker">Webpage Note Taker</Link>
           </li>
@@ -29,7 +32,7 @@ export default function Projects() {
             <Link href="/projects/nascar-analysis">NASCAR Analysis</Link>
           </li>
         </ul>
-      </section>
+      </navigation>
     </>
   );
 }
