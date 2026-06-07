@@ -32,7 +32,7 @@ export default function UrlParamSplitter() {
           Play it below or at <Link href="https://yourebald.lovable.app">https://yourebald.lovable.app</Link>.
         </p>
 
-        <iframe src="https://yourebald.lovable.app" width="100%" height="800px" frameborder="0"></iframe>
+        <iframe src="https://yourebald.lovable.app" width="100%" height="800px" frameBorder="0"></iframe>
 
         <section>
           <h3>More On Development</h3>

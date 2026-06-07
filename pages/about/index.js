@@ -70,9 +70,9 @@ export default function AboutCindy() {
         <section>
           <h3>How do I contact you?</h3>
           <p>
-            <li><b>LinkedIn</b>: <Link href="https://linkedin.com/in/cindy-yen" target="_blank">linkedin.com/in/cindy-yen</Link> (Send a message with your invite so I don&#39;t decline it.)</li>
-            <li><b>Email</b>: <a href="mailto:cindymeliyen@gmail.com" target="_blank">cindymeliyen@gmail.com</a></li>
-            <li><b>Twitter</b>: <Link href="https://twitter.com/cindymeliyen" target="_blank">@cindymeliyen</Link></li>
+            <li><b>LinkedIn</b>: <Link href="https://linkedin.com/in/cindy-yen" target="_blank" rel="noopener noreferrer">linkedin.com/in/cindy-yen</Link> (Send a message with your invite so I don&#39;t decline it.)</li>
+            <li><b>Email</b>: <a href="mailto:cindymeliyen@gmail.com" target="_blank" rel="noopener noreferrer">cindymeliyen@gmail.com</a></li>
+            <li><b>Twitter</b>: <Link href="https://twitter.com/cindymeliyen" target="_blank" rel="noopener noreferrer">@cindymeliyen</Link></li>
             My resume is updated frequently. Please contact me for the most updated version. For a more detailed career history, please look at my LinkedIn page.
           </p>
         </section>
