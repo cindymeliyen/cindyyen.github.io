@@ -22,7 +22,7 @@ export default function Layout({ children }) {
                 <footer>
                     <div className="footer">
                         <p style={{ color: "Black" }}> Check Out More: <br></br>
-                            <Link href="https://linkedin.com/in/cindy-yen" target="_blank" rel="noopener noreferrer">LinkedIn</Link> • <Link href="https://github.com/cindymeliyen" target="_blank" rel="noopener noreferrer">Github</Link> • <a href="mailto:cindymeliyen@gmail.com" target="_blank" rel="noopener noreferrer">Email</a></p>
+                            <Link href="https://linkedin.com/in/cindy-yen" target="_blank" rel="noopener noreferrer">LinkedIn</Link> • <Link href="https://github.com/cindymeliyen" target="_blank" rel="noopener noreferrer">Github</Link> • <a href="mailto:cindymeliyen@gmail.com" target="_blank" rel="noopener noreferrer">Email Me</a></p>
                         <br></br>
                         Cindy Yen © 2026
                     </div>
