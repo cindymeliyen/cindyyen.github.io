@@ -14,6 +14,11 @@ export default function Home() {
         />
       </Head>
       <navigation><ul>
+                <li>
+          <Link href="/cindybot" className="project-link">
+            **NEW** Chat with CindyBot
+          </Link>
+        </li>
         <li>
           <Link href="/about" className="project-link">
             About Cindy
