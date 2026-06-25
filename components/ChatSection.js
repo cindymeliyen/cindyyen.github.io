@@ -3,7 +3,7 @@ import ReactMarkdown from 'react-markdown';
 
 export default function ChatSection() {
     const [messages, setMessages] = useState([
-        { role: 'model', parts: [{ text: "Hi, I'm Cindy's AI assistant. Ask me anything about her experience. \n\n Note that your responses will be recorded for bot improvements." }] }
+        { role: 'model', parts: [{ text: "Hi, I'm CindyBot. Ask me anything about her experience. \n\n Note that your responses will be recorded for bot improvements." }] }
     ]);
     const [input, setInput] = useState('');
     const [isLoading, setIsLoading] = useState(false);

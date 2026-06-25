@@ -37,6 +37,9 @@ export default function CindyBot() {
           <ChatSection />
         </section>
       </main>
+      <br></br>
+
+      <p><i>Note: CindyBot runs off a free version of Gemini API. If you get an error about "having trouble communicating with the API," please wait a few seconds and try again.</i></p>
               <br></br>
     </>
   );
