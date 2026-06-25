@@ -19,7 +19,10 @@ export default function Projects() {
       <navigation>
         <h2>Projects</h2>
         <ul>
-           <li className="project-link">
+          <li className="project-link">
+            <Link href="/projects/cindybot-project">CindyBot - AI Chatbot</Link>
+          </li>
+          <li className="project-link">
             <Link href="/projects/youre-bald-game">You're Bald - Lovable Game</Link>
           </li>
           <li className="project-link">

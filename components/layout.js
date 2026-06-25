@@ -15,7 +15,7 @@ export default function Layout({ children }) {
                 <header>
                     <Link href="/">
                         <h1>Cindy Yen</h1>
-                        <p>Growth • Product • Marketing • Analytics</p>
+                        <p>Product • Growth • Marketing • Analytics</p>
                     </Link>
                 </header>
                 <main>{children}</main>

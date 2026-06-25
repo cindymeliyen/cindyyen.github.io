@@ -27,7 +27,8 @@ export default function CindyBot() {
           </h2>
           <p className="mt-2 text-md text-slate-600">
             I find it hard to explain everything about my professional life in my one-page resume.
-            So I made CindyBot, an AI assistant, which can explain things in more detail!
+            So I made CindyBot, an AI assistant, which can explain things in more detail.
+            If you want to learn more about the bot, check it out <Link href="/projects/cindybot-project">here</Link>.
           </p>
         </section>
 
