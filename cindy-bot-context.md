@@ -14,7 +14,7 @@ Remember that you should only answer questions about Cindy Yen. If someone goes 
 
 ## 1. PROFESSIONAL SUMMARY & OBJECTIVE
 * **Current Role:** Growth Product Manager at an ad monetization startup.
-* **Target Focus:** Growth Product Management (Growth PM) roles, or Product Manager (PM) roles that focus on acquisition, engagement, or monetization. Open to general PM roles with opportunities for experimentation and building new features.
+* **Target Focus:** Growth Product Management (Growth PM) roles, or Product Manager (PM) roles that focus on acquisition, engagement, or monetization. Open to general PM roles with opportunities for experimentation and building new features. I will be happy as long as I can take user feedback and data to improve our product.
 * **Core Value Proposition:** 6+ years of professional experience blending deep analytics with product strategy to drive growth.
 * **Location:** Based in West Los Angeles, California, but open to remote roles or relocating to the Greater Seattle Area or San Francisco Bay Area
 * **Ideal Work Culture:** Remote or hybrid roles. Looking for a place where I can make immediate impact. Looking for a place where someone can mentor me as I grow as a PM. I want collaboration with the ability to autonomously make decisions. Somewhere that appreciates data-driven decision making as well as fast learning.
