@@ -7,14 +7,51 @@ export default function ChatSection() {
     ]);
     const [input, setInput] = useState('');
     const [isLoading, setIsLoading] = useState(false);
+    const [isMobile, setIsMobile] = useState(false);
 
-    const messagesEndRef = useRef(null);
+    const feedRef = useRef(null);
+    const chatboxRef = useRef(null);
+    // This ref tracks the first render so we can suppress scroll-to-bottom on page load
+    const isInitialMount = useRef(true);
 
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth < 768);
+        };
+        window.addEventListener('resize', handleResize);
+        handleResize();
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
+    useEffect(() => {
+        // Smoothly center the top of the chatbox when the user first lands on the page
+        const scrollTimer = setTimeout(() => {
+            if (chatboxRef.current) {
+                chatboxRef.current.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        }, 400); // 400ms delay ensures DOM parsing has settled
+        return () => clearTimeout(scrollTimer);
+    }, []);
+
+    // Scroll only the inner chat feed wrapper so the main browser window never bounces
     const scrollToBottom = () => {
-        messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+        if (feedRef.current) {
+            feedRef.current.scrollTo({
+                top: feedRef.current.scrollHeight,
+                behavior: 'smooth'
+            });
+        }
     };
 
     useEffect(() => {
+        // Guard clause: skip execution on the very first mount to stop the scroll-down-then-up bug
+        if (isInitialMount.current) {
+            isInitialMount.current = false;
+            return;
+        }
         scrollToBottom();
     }, [messages, isLoading]);
 
@@ -69,23 +106,26 @@ export default function ChatSection() {
         }
     };
 
-    // --- Inline CSS Configurations Using Your Palette ---
     const styles = {
         container: {
             display: 'flex',
             flexDirection: 'column',
-            height: '580px',
-            backgroundColor: '#ffffff', // Your main background
-            border: '2px solid #ddd', // Your border theme color
-            borderRadius: '8px', // Your theme radius
+            height: isMobile ? '100dvh' : '600px',
+            maxHeight: isMobile ? '100dvh' : '800px',
+            width: '100%',
+            maxWidth: '100%',
+            margin: '0 auto',
+            backgroundColor: '#ffffff',
+            border: isMobile ? 'none' : '2px solid #ddd',
+            borderRadius: isMobile ? '0px' : '8px',
             overflow: 'hidden',
-            fontFamily: 'Arial, sans-serif', // Your exact font family
-            boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)', // Your exact container shadow
+            fontFamily: 'Arial, sans-serif',
+            boxShadow: isMobile ? 'none' : '0 4px 6px rgba(0, 0, 0, 0.1)',
             textAlign: 'left'
         },
         header: {
             padding: '16px 24px',
-            backgroundColor: '#66cdaa', // A nice green
+            backgroundColor: '#66cdaa',
             borderBottom: '2px solid #ddd',
             display: 'flex',
             alignItems: 'center',
@@ -106,7 +146,7 @@ export default function ChatSection() {
             display: 'flex',
             flexDirection: 'column',
             gap: '16px',
-            backgroundColor: '#f0f2f5' // Your page body background color
+            backgroundColor: '#f0f2f5'
         },
         msgBlock: {
             display: 'flex',
@@ -116,7 +156,7 @@ export default function ChatSection() {
         label: {
             fontSize: '11px',
             fontWeight: 'bold',
-            color: '#333333', // Your core text color
+            color: '#333333',
             marginBottom: '4px',
             padding: '0 4px'
         },
@@ -125,17 +165,17 @@ export default function ChatSection() {
             borderRadius: '8px',
             fontSize: '14px',
             lineHeight: '1.5',
-            backgroundColor: '#f2e1d0', // Your custom project hover light tan accent
+            backgroundColor: '#f2e1d0',
             color: '#000000',
-            border: '1px solid #e25555', // Tied together with your core red line weight
+            border: '1px solid #e25555',
             whiteSpace: 'pre-wrap'
         },
         bubbleBot: {
             padding: '12px 16px',
             borderRadius: '8px',
             fontSize: '14px',
-            lineHeight: '1.6', // Slightly increased for readable rich text spacing
-            backgroundColor: '#ffffff', // Clean white card face
+            lineHeight: '1.6',
+            backgroundColor: '#ffffff',
             color: '#333333',
             border: '1px solid #ddd'
         },
@@ -152,7 +192,7 @@ export default function ChatSection() {
         },
         inputField: {
             width: '100%',
-            backgroundColor: '#fafafa', // Your custom link background color asset
+            backgroundColor: '#fafafa',
             border: '2px solid #ddd',
             borderRadius: '5px',
             padding: '12px 90px 12px 14px',
@@ -165,7 +205,7 @@ export default function ChatSection() {
             position: 'absolute',
             right: '8px',
             padding: '6px 14px',
-            backgroundColor: '#66cdaa', // Matching green action element
+            backgroundColor: '#66cdaa',
             color: '#ffffff',
             border: 'none',
             borderRadius: '5px',
@@ -178,7 +218,7 @@ export default function ChatSection() {
     };
 
     return (
-        <div style={styles.container}>
+        <div style={styles.container} ref={chatboxRef}>
 
             {/* Header Area */}
             <div style={styles.header}>
@@ -192,7 +232,7 @@ export default function ChatSection() {
             </div>
 
             {/* Chat Feed History Area */}
-            <div style={styles.feed}>
+            <div style={styles.feed} ref={feedRef}>
                 {messages.map((msg, index) => {
                     const isUser = msg.role === 'user';
                     return (
@@ -225,7 +265,6 @@ export default function ChatSection() {
                         </div>
                     </div>
                 )}
-                <div ref={messagesEndRef} />
             </div>
 
             {/* Pinned Input Bar */}
